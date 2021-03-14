@@ -13,11 +13,6 @@
     box-sizing: border-box;
 }
 
-a{
-    color: unset;
-    text-decoration: none;
-}
-
 body, html{
     background-color: var(--background-color);
     scroll-behavior: smooth;
@@ -25,6 +20,7 @@ body, html{
     overflow-x: hidden;
 }
 
+/* header section */
 .nav{
     position: fixed;
     top:0;
@@ -42,6 +38,11 @@ body, html{
     align-items: center;
     justify-content: space-between;
     padding: 1rem;
+}
+
+a{
+    color: unset;
+    text-decoration: none;
 }
 
 .logo{
@@ -89,6 +90,7 @@ body, html{
     border-radius: 5rem;
 }
 
+/* home section */
 .fullheight{
     height: 100vh;
 }
@@ -145,7 +147,6 @@ section{
     background-color: var(--primary-color);
     color: var(--white);
 }
-
 
 /* GRID SYSTEM */
 
