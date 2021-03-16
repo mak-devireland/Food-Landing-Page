@@ -81,6 +81,7 @@ a{
     color: var(--primary-color);
     font-size: 2rem;
     cursor: pointer;
+    border-radius: 5rem;
     transition: .5s ease-in-out;
 }
 
@@ -99,6 +100,7 @@ a{
     display: flex;
     align-items: center;
     justify-content: center;
+    text-align: center;
 }
 
 .bg-img{
@@ -138,6 +140,7 @@ section{
     border-radius: 2rem;
     color: var(--primary-color);
     margin: 3rem 0;
+    font-size: 1rem;
     cursor: pointer;
     font-weight: 600;
     transition: .5s ease-in-out;
@@ -266,5 +269,50 @@ section{
     display: none;
 }
 
+/* section about */
+
+.full-width{
+    width: 100%;
+}
+
+#about img{
+    border-radius: 2rem;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px,
+    rgba(17, 17, 26, 0.1) 0px 16px 56px,
+    rgba(17, 17, 26, 0.1) 0px 24px 80px;
+}
+
+/* .h-xs{
+    display: none;
+} */
+
+.container-about h1{
+    margin: 0 auto;
+    font-size: 4rem;
+    color: var(--grey);
+    border-bottom: 4px solid var(--primary-color);
+    width: 11%;
+    margin-top: 6rem;
+    margin-bottom: 5rem;
+    
+}
+
+.about-slogan{
+    padding: 4rem;
+    background-color:  var(--white);
+    border-radius: 2rem;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+    transform: translateX(-10rem);
+}
+
+.about-slogan h3{
+    font-size: 2rem;
+    margin-bottom: 3rem;
+    color: var(--grey);
+}
+
+.primary-color{
+    color: var(--primary-color);
+}
 
 
